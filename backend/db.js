@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 // mongo db localhost url
 
 const url = "mongodb://localhost:27017/medium";
@@ -14,3 +13,4 @@ module.exports.connect = () => {
     .then(() => console.log("MongoDB is connected successfully"))
     .catch((err) => console.log("Error: ", err));
 };
+ 
